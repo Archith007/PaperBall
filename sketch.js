@@ -16,7 +16,7 @@ function setup(){
     box2 = new Box(545,690,15,100);
     box3 = new Box(745,690,15,100)
     ground = new Ground(400,height,802,20)
-    ball = new Paper(50,375,50,50)
+    ball = new Paper(50,375,25,25)
 }
 
 function draw(){
