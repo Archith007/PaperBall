@@ -17,9 +17,9 @@ class Paper {
       push();
       translate(pos.x, pos.y);
       rotate(angle);
-      rectMode(CENTER);
+      ellipseMode(RADIUS);
       fill("white");
-      rect(0, 0, this.width, this.height);
+      ellipse(0, 0, this.width, this.height)
       pop();
     }
 }
